@@ -18,14 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Example Jekyll site using GitLab Pages
+title: Blog of Sorrv
 email: your-email@domain.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "/" # the base hostname & protocol for your site, e.g. http://example.com
+show_downloads: true
+baseurl: "/" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
+url: "https://sorrv.github.io" # chage this to the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Yunny
 github_username:  Sorrv
 gitlab_username:  pages
@@ -35,6 +36,18 @@ gitlab_username:  pages
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
+
+title: Cayman Blog Theme
+description: Cayman Blog Theme is a clean, responsive blogging theme for Jekyll and Gitlab/GitHub Pages.
+
+
+
+# cayman-blog date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+cayman-blog:
+  date_format: "%b %-d, %Y"
+
+theme: # leave it empty
 
 # Exclude from processing.
 # The following items will not be processed, by default.
